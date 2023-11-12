@@ -1,4 +1,4 @@
-const boxes = Array.from(document.querySelectorAll(".accordion"));
+const boxes = Array.from(document.querySelectorAll(".accordion-button"));
 
 boxes.forEach((box) => {
   box.addEventListener("click", boxHandler);
@@ -6,7 +6,7 @@ boxes.forEach((box) => {
 
 function boxHandler(e) {
   e.preventDefault();
-  let currentBox = e.target.closest(".accordion");
+  let currentBox = e.target.closest(".accordion-button");
   let currentContent = e.target.nextElementSibling;
   currentBox.classList.toggle("active");
   if(currentBox.classList.contains("active")){
