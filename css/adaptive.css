@@ -62,10 +62,10 @@
 @media (min-width: 768px){
     .container{
         padding: 10px;
-        max-width: 1200px;
+        max-width: 1500px;
         margin: auto;
         display: grid;
-        border: 1px solid seagreen;
+        /* border: 1px solid seagreen; */
         justify-content: start;
         /* grid-template-columns: 83%; */
     }
