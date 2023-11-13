@@ -9,13 +9,10 @@
     .lady__red-ribbon{
         justify-self: center;
         align-self: center;
-        min-width: 100%;
     }
 }
 @media (max-width: 767px){
     .lady__red-ribbon{
-        width: 100%;
-        height: auto;
         margin-top: 50px;
     }
     .advise__text{
@@ -65,11 +62,12 @@
 @media (min-width: 768px){
     .container{
         padding: 10px;
-        max-width: 1500px;
+        max-width: 1200px;
         margin: auto;
         display: grid;
-        /* border: 1px solid seagreen;  */
+        border: 1px solid seagreen;
         justify-content: start;
+        /* grid-template-columns: 83%; */
     }
     .decoration{
         display: grid;
@@ -95,11 +93,7 @@
         width: 100%;
         height: auto;
     }
-    .lady__red-ribbon{
-        max-width:390px;
-        max-height:490px;
-        justify-self: start;
-    }
+    
     .hilight__star{
         max-width: 35px;
         max-height: 35px;
